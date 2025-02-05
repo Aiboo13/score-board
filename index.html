@@ -11,24 +11,24 @@
   <title>papan score</title>
 </head>
 <body>
-  <div>
-    <div>
-      <div>
+  <div class="scoreboard container d-flex flex-column justify-content-center">
+    <div class="row row-cols-1 row-cols-md-2 text-center py-5 justify-content-center">
+      <div class="points col col-auto py-3  d-flex flex-column ">
         <h2>player 1</h2>
-        <p id="p1-display">0</p>
-        <div>
-          <button id="p1-button">+1</button>
+        <p id="p1-display" class="px-3">0</p>
+        <div class="score-btns">
+          <button id="p1-button" class="btn btn-primary">+1</button>
         </div>
       </div>
-      <div>
+      <div class="points col col-auto py-3  d-flex flex-column ">
         <h2>player 2</h2>
-        <p id="p2-display">0</p>
+        <p id="p2-display" class="px-3">0</p>
         <div>
-          <button id="p2-button">+1</button>
+          <button id="p2-button" class="btn btn-primary">+1</button>
         </div>
       </div>
     </div>
-    <div>
+    <div class="d-grid gap-4 col-1 pb-5 mx-auto">
       <select name="" id="winpoin">
         <option value="9">9</option>
         <option value="12">12</option>
@@ -36,8 +36,8 @@
         <option value="21">21</option>
       </select>
     </div>
-    <div>
-      <button id="riset">riset</button>
+    <div class="d-grid gap-2 col-2 col-4 mx-auto pb-5">
+      <button id="riset" class="btn-primary">riset</button>
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
