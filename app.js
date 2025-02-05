@@ -7,7 +7,7 @@ const winpointsOption = document.querySelector('#winpoin');
 
 let p1Score = 0;
 let p2Score = 0;
-let winpoints = 5;
+let winpoints = 9;
 let isGameOver = false;
 // membuat deklrasi 
 function riset(){
